@@ -5,7 +5,11 @@
 3.由虚拟像素位置找到周围的四个点的像素点
 4.利用双线性差值方法来计算出像素值
 
-直方图
+直方图均衡化
+利用opencv中的eauqalizeHist函数
 
-卷积
 
+sobel边缘检测
+利用opencv中的sobel函数，cv2.sobel
+x = cv2.Sobel(img,cv2.CV_16S, 1,0 )
+y = cv2.Sobel(img,cv2.CV_16S, 0,1 )
